@@ -1,4 +1,4 @@
-package: github.com/xephonhq/xephon-b
+package: github.com/xephonhq/tsdb-proxy
 import: 
 - package: github.com/spf13/cobra
   vcs: git
@@ -11,7 +11,7 @@ import:
   version: 248dadf4e9068a0b3e79f02ed0a610d935de5302
 - package: github.com/dyweb/gommon
   vcs: git
-  version: 7aad4c9c1ff32b9473a816ba27158bf59bfec307
+  version: c897f255ac150121c18e1a6f92fd8d111cc2f459
 testImport:
 - package: github.com/stretchr/testify
   vcs: git
