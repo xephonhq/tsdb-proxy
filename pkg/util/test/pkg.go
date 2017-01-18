@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/xephonhq/xephon-b/pkg/util"
+	"github.com/xephonhq/tsdb-proxy/pkg/util"
 )
 
 var log = util.Logger.NewEntryWithPkg("x.u.test")

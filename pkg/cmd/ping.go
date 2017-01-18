@@ -1,14 +1,14 @@
-package main
+package cmd
 
 import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"github.com/xephonhq/xephon-b/pkg/tsdb"
-	"github.com/xephonhq/xephon-b/pkg/tsdb/config"
-	"github.com/xephonhq/xephon-b/pkg/tsdb/influxdb"
-	"github.com/xephonhq/xephon-b/pkg/tsdb/kairosdb"
-	"github.com/xephonhq/xephon-b/pkg/tsdb/opentsdb"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb/config"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb/influxdb"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb/kairosdb"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb/opentsdb"
 )
 
 var (

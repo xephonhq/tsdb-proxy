@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/xephonhq/xephon-b/pkg/common"
+	"github.com/xephonhq/tsdb-proxy/pkg/common"
 )
 
 //DebugSerializer change point with its series to human readable string

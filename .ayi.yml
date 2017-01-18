@@ -1,15 +1,12 @@
 install:
-    - go install github.com/xephonhq/xephon-b/cmd/xb
-    - go install github.com/xephonhq/xephon-b/cmd/xephon-b
-    - go install github.com/xephonhq/xephon-b/cmd/tsdb-proxy
+    - go install github.com/xephonhq/tsdb-proxy/cmd/tsdb-proxy
     
 test:
     - go test -v -cover ./pkg/...
     - go test -race ./pkg/...
-    # - sh -c "go test -v -cover $(glide novendor)"
 scripts:
+  # fast test
   ft: go test ./pkg/...
-  sm: go test -v ./pkg/simulator -run TestMachineSimulator
   f:
     - gofmt -d -l -w ./pkg
   format: 

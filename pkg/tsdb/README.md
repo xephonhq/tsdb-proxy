@@ -8,7 +8,7 @@ This directory hold
 
 ## Client
 
-- Client is actually a bunch of client connections with TSDB which share same transport, see initial discussion [here](https://github.com/xephonhq/xephon-b/pull/14)
+- Client is actually a bunch of client connections with TSDB which share same transport, see initial discussion [here](https://github.com/xephonhq/tsdb-proxy/pull/14)
   - [ ] TODO: may have an abstraction over http client 
 - You can control trace (collect client metrics), concurrency, retry policy
 - Payload is not thread safe, if you want to fine control over payload, use lock on it.

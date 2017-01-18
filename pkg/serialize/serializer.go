@@ -1,8 +1,8 @@
 package serialize
 
 import (
-	"github.com/xephonhq/xephon-b/pkg/common"
-	"github.com/xephonhq/xephon-b/pkg/util"
+	"github.com/xephonhq/tsdb-proxy/pkg/common"
+	"github.com/xephonhq/tsdb-proxy/pkg/util"
 )
 
 // Short name use in machine simulator package

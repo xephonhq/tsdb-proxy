@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xephonhq/xephon-b/pkg/common"
-	"github.com/xephonhq/xephon-b/pkg/tsdb"
-	"github.com/xephonhq/xephon-b/pkg/tsdb/config"
+	"github.com/xephonhq/tsdb-proxy/pkg/common"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb/config"
 )
 
 func TestTSDBClientInterface(t *testing.T) {

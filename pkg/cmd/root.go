@@ -1,14 +1,16 @@
-package main
+package cmd
 
 import (
 	"fmt"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/xephonhq/xephon-b/pkg/util"
+	"github.com/xephonhq/tsdb-proxy/pkg/util"
+	"os"
 )
 
 var Version = "0.0.1-dev"
+var log = util.Logger.NewEntryWithPkg("t.cmd")
 
 var (
 	configFile        = ""
@@ -23,6 +25,12 @@ var RootCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("TSDB Proxy:" + Version + " Use `tsdb-proxy -h` for more information")
 	},
+}
+
+func Execute() {
+	if RootCmd.Execute() != nil {
+		os.Exit(-1)
+	}
 }
 
 func init() {

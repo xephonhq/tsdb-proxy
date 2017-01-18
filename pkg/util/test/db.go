@@ -4,9 +4,9 @@ import (
 	"os"
 
 	st "github.com/dyweb/gommon/structure"
-	"github.com/xephonhq/xephon-b/pkg/tsdb/common"
-	"github.com/xephonhq/xephon-b/pkg/tsdb/config"
-	"github.com/xephonhq/xephon-b/pkg/tsdb/kairosdb"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb/common"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb/config"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb/kairosdb"
 )
 
 var pinged = st.NewSet()

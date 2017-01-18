@@ -5,14 +5,14 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/xephonhq/xephon-b/pkg/tsdb"
-	"github.com/xephonhq/xephon-b/pkg/tsdb/config"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb/config"
 
 	"io/ioutil"
 
 	"github.com/dyweb/gommon/requests"
 	"github.com/pkg/errors"
-	"github.com/xephonhq/xephon-b/pkg/util"
+	"github.com/xephonhq/tsdb-proxy/pkg/util"
 )
 
 // Short name use in KairosdDB client package

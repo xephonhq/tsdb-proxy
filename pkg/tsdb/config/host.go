@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/xephonhq/xephon-b/pkg/tsdb/common"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb/common"
 )
 
 type TSDBHostConfig struct {

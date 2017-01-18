@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/xephonhq/xephon-b/pkg/common"
+	"github.com/xephonhq/tsdb-proxy/pkg/common"
 
 	"time"
 )

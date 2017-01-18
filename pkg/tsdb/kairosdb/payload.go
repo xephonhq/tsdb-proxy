@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/xephonhq/xephon-b/pkg/common"
+	"github.com/xephonhq/tsdb-proxy/pkg/common"
 )
 
 // KairosDBPayload is NOT thread safe

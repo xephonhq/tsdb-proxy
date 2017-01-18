@@ -3,7 +3,7 @@ package serialize
 import (
 	"encoding/json"
 
-	"github.com/xephonhq/xephon-b/pkg/common"
+	"github.com/xephonhq/tsdb-proxy/pkg/common"
 )
 
 type JsonSerializer struct {

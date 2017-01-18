@@ -18,7 +18,7 @@ func ViperReadTestConfig() {
 		log.Fatal("can't get current file path")
 	}
 
-	filePath := path.Join(path.Dir(filename), "../../xephon-b.yml")
+	filePath := path.Join(path.Dir(filename), "../../tsdb-proxy.yml")
 	log.Debug(filePath)
 	viper.SetConfigFile(filePath)
 	viper.ReadInConfig()

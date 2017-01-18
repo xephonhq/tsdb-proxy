@@ -1,15 +1,9 @@
 package main
 
 import (
-	"os"
-
-	"github.com/xephonhq/xephon-b/pkg/util"
+	"github.com/xephonhq/tsdb-proxy/pkg/cmd"
 )
 
-var log = util.Logger.NewEntryWithPkg("tsdb-proxy")
-
 func main() {
-	if RootCmd.Execute() != nil {
-		os.Exit(-1)
-	}
+	cmd.Execute()
 }

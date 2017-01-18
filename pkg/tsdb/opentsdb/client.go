@@ -3,9 +3,9 @@ package opentsdb
 import (
 	"github.com/dyweb/gommon/requests"
 	"github.com/pkg/errors"
-	"github.com/xephonhq/xephon-b/pkg/tsdb"
-	"github.com/xephonhq/xephon-b/pkg/tsdb/config"
-	"github.com/xephonhq/xephon-b/pkg/util"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb"
+	"github.com/xephonhq/tsdb-proxy/pkg/tsdb/config"
+	"github.com/xephonhq/tsdb-proxy/pkg/util"
 )
 
 // Short name use in OpenTSDB client package

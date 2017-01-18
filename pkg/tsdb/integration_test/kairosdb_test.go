@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/suite"
-	tutil "github.com/xephonhq/xephon-b/pkg/util/test"
+	tutil "github.com/xephonhq/tsdb-proxy/pkg/util/test"
 )
 
 type KairosDBTestSuite struct {
